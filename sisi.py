@@ -1,7 +1,4 @@
 import streamlit as st
-from googletrans import Translator
-
-translator = Translator()
 
 # Diccionario con palabras a traducir
 diccionario = {
@@ -11,13 +8,16 @@ diccionario = {
     "morning": "mañana"
 }
 
-st.title("Traductor de Inglés a Español")
+def traducir_oracion(oracion):
+    palabras = oracion.split()
+    oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
+    return oracion_traducida
+
+st.title("Traductor de Palabras")
 
 # Preguntar al usuario por una oración en inglés
-sentence = st.text_input("Ingresa una oración en inglés:")
+oracion = st.text_input("Ingresa una oración en inglés:")
 
 if st.button("Traducir"):
-    words = sentence.split()
-    translated_sentence = " ".join([diccionario.get(word.lower(), word) for word in words])
-    
-    st.write(f"La oración traducida al español es: {translated_sentence}")
+    oracion_traducida = traducir_oracion(oracion)
+    st.write(f"La oración traducida al español es: {oracion_traducida}")
