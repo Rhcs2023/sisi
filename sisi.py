@@ -150,7 +150,7 @@ if st.button("Traducir"):
     # Cargar la imagen desde un archivo local
   #  imagen = "http://exploraoaxaca.mx/wp-content/uploads/2018/02/Carnaval-de-Chalcatongo-Oaxaca-3.jpg"
   #  st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
-imagen = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chalcatzingo.JPG/1280px-Chalcatzingo.JPG"
+imagen = "https://drive.google.com/file/d/16MYVkm5BTftT20BVgd53M1whhFVUAUWP/view?usp=drive_link"
 st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
 
 
