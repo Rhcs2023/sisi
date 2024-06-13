@@ -154,7 +154,7 @@ import streamlit as st
 
 # Load and display the image
 imagen = "https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/05/ciudad-de-mexico-angel-independencia-depositphotos.jpg"
-st.image(imagen, caption='Ciudad de Mexico, efecto de barrido ', use_column_width=True)
+st.image(imagen, caption='Glorieta del Angel de la independencia, Ciudad de Mexico, efecto de barrido ', use_column_width=True)
 
 
 
