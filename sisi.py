@@ -135,8 +135,8 @@ def traducir_oracion(oracion):
 
 import streamlit as st
 # Load and display the image
-imagen = "   "
-st.image(imagen, caption='_________________________________________________________________________________ ', use_column_width=True)
+imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fimagenes-fondo-abstractas-papel-tapiz-generados_68272224.htm&psig=AOvVaw2oU5PpPUMrOce0kPIUj84v&ust=1718343466563000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODbhbLu14YDFQAAAAAdAAAAABAE  "
+st.image(imagen, caption='Es ', use_column_width=True )
 
 
 
