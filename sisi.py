@@ -147,7 +147,7 @@ if st.button("Traducir"):
 
 
 # Mostrar el texto con el color especificado
-     color = "black"
-     st.markdown(f'<font color="{color}">{write}</font>', unsafe_allow_html=True)
+     color = "green"
+    st.markdown(f'<font color="{color}">{write}</font>', unsafe_allow_html=True)
 
     
