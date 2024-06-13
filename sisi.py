@@ -145,6 +145,14 @@ if st.button("Traducir"):
     color = "blue"
     st.write(f"Los pronombres posesivos van despues del sujeto.Traducción: {oracion_traducida}")
 
+# Agregar un botón para mostrar la imagen
+if st.button('Mostrar imagen'):
+    # Cargar la imagen desde un archivo local
+    imagen = "http://exploraoaxaca.mx/wp-content/uploads/2018/02/Carnaval-de-Chalcatongo-Oaxaca-3.jpg"
+    st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
+
+
+
 
 # Mostrar el texto con el color especificado
      
