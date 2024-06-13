@@ -140,14 +140,14 @@ oracion = st.text_input("Ingresa una oración en español, ejemplo: Padre mi va 
 
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
-    color = "black"
-    st.markdown(f'<font color="{color}">{write}</font>', unsafe_allow_html=True)
+   
 
 
     st.write(f"La h es muda, los pronombres posesivos se colocan despues del sujeto: Padre mio y en Mixteco: {oracion_traducida}")
 
 
 # Mostrar el texto con el color especificado
-    
+     color = "black"
+     st.markdown(f'<font color="{color}">{write}</font>', unsafe_allow_html=True)
 
     
