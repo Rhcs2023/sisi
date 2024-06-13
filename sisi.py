@@ -140,4 +140,4 @@ oracion = st.text_input("Ingresa una oración en español, ejemplo: Padre mi va 
 
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
-    st.write(f"La h es muda, los pronombres posesivos se colocan despues del sujeto: Padre mio {oracion_traducida}")
+    st.write(f"La h es muda, los pronombres posesivos se colocan despues del sujeto: Padre mio y en Mixteco: {oracion_traducida}")
