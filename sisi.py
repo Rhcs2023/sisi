@@ -84,7 +84,7 @@ diccionario = {
         'me': 'ná ',
         'mercado': 'yahu ',
         'mero': 'máá ', 
-        'mi': 'ri(ná) ',
+        'mi': 'ri',
         'mirar': 'koto ', 
         'mismo': 'máá ', 
         'monte': 'yuko ',
