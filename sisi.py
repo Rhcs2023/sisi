@@ -142,7 +142,7 @@ if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
    
 
-    color = "AE1851"
+    color = "blue"
     st.write(f"La h es muda, los pronombres posesivos se colocan despues del sujeto: Padre mio y en Mixteco: {oracion_traducida}")
 
 
