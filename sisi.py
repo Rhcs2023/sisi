@@ -133,10 +133,10 @@ def traducir_oracion(oracion):
     oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
     return oracion_traducida
 
-import streamlit as st
+#import streamlit as st
 # Load and display the image
-imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wolterskluwer.com%2Fen%2Fexpert-insights%2Fgenerative-ai-trends-to-watch&psig=AOvVaw3T1d3Uo45nWmKRh2QZSHfX&ust=1718343291412000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCLjRz-nt14YDFQAAAAAdAAAAABDtAQ "
-st.image(imagen, caption='Es ', use_column_width=True )
+#imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wolterskluwer.com%2Fen%2Fexpert-insights%2Fgenerative-ai-trends-to-watch&psig=AOvVaw3T1d3Uo45nWmKRh2QZSHfX&ust=1718343291412000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCLjRz-nt14YDFQAAAAAdAAAAABDtAQ "
+#st.image(imagen, caption='Es ', use_column_width=True )
 
 
 
