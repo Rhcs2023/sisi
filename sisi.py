@@ -143,7 +143,7 @@ if st.button("Traducir"):
    
 
     color = "blue"
-    st.write(f"Los pronombres posesivos van despues del sujeto: Madre mi,tu: Traducción: {oracion_traducida}")
+    st.write(f"Los pronombres posesivos van despues del sujeto.Traducción: {oracion_traducida}")
 
 
 # Mostrar el texto con el color especificado
