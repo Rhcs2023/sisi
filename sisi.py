@@ -135,7 +135,7 @@ def traducir_oracion(oracion):
 st.title("Traductor de español a Mixteco")
 
 # Preguntar al usuario por una oración en español
-oracion = st.text_input("Ingresa una oración en español, ejemplo Padre mi va al centro:").lower()
+oracion = st.text_input("Ingresa una oración en español, ejemplo: Padre mi va al centro").lower()
 
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
