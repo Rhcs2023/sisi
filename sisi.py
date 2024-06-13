@@ -132,11 +132,11 @@ def traducir_oracion(oracion):
     oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
     return oracion_traducida
 
-st.title("Traductor de español a Mixteco")
+st.title("Traductor de Español a Mixteco")
 
 # Preguntar al usuario por una oración en español
 oracion = st.text_input("Ingresa una oración en español, ejemplo: Padre mi va al centro").lower()
 
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
-    st.write(f"La oración traducida al mixteco es: {oracion_traducida}")
+    st.write(f"La oración traducida al Mixteco es: {oracion_traducida}")
