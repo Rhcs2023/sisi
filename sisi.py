@@ -148,9 +148,12 @@ if st.button("Traducir"):
 # Agregar un botón para mostrar la imagen
 #if st.button('Mostrar imagen'):
     # Cargar la imagen desde un archivo local
-  #  imagen = "http://exploraoaxaca.mx/wp-content/uploads/2018/02/Carnaval-de-Chalcatongo-Oaxaca-3.jpg"
+  #  imagen = ""
   #  st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
-imagen = "https://pin.it/5Y3hQ6Jm0"
+import streamlit as st
+
+# Load and display the image
+imagen = "https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/05/ciudad-de-mexico-angel-independencia-depositphotos.jpg"
 st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
 
 
