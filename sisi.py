@@ -148,18 +148,12 @@ oracion = st.text_input("Ingresa una oración en español, los pronombres posesi
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
    
-
     color = "blue"
-    st.write(f"Traducción: {oracion_traducida}")
-
-# Agregar un botón para mostrar la imagen
-#if st.button('Mostrar imagen'):
-    # Cargar la imagen desde un archivo local
-  #  imagen = ""
-  #  st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
+    st.write(f"Traducción: {oracion_traducida} font=("Arial", 12)")
 
 
 
-# Mostrar el texto con el color especificado
+
+
      
    
