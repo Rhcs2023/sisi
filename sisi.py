@@ -149,7 +149,7 @@ if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
    
     color = "blue"
-    st.write(f"Traducción: {oracion_traducida} font=("Arial", 12)")
+    st.write(f"Traducción: {oracion_traducida} + font=("Arial", 12)")
 
 
 
