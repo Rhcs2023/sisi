@@ -143,7 +143,7 @@ def traducir_oracion(oracion):
 st.title("Traductor de Español a Mixteco")
 
 # Preguntar al usuario por una oración en español
-oracion = st.text_input("Ingresa una oración en español, Los pronombres posesivos van despues del sujeto, ejemplo: Padre mi va al centro").lower()
+oracion = st.text_input("Ingresa una oración en español, los pronombres posesivos van despues del sujeto, ejemplo: Padre mi va al centro").lower()
 
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
