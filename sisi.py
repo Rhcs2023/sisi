@@ -101,6 +101,7 @@ diccionario = {
         'piedra': 'yuú ',
         'pueblo': 'ñuù ',
         'que': 'já ',
+        'se': 'kúu es ser pero  ',
         'recoger': 'nastútú ', 
         'regresar': 'yàà ',
         'relajado': 'kuééni ',
