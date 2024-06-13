@@ -133,6 +133,14 @@ def traducir_oracion(oracion):
     oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
     return oracion_traducida
 
+import streamlit as st
+
+# Load and display the image
+imagen = "https://www.mexicodesconocido.com.mx/wp-content/uploads/2017/09/distrito_federal_palacio_nacional_am_0.jpg"
+st.image(imagen, caption='Glorieta del Angel de la independencia, Ciudad de Mexico, efecto de barrido ', use_column_width=True)
+
+
+
 st.title("Traductor de Español a Mixteco")
 
 # Preguntar al usuario por una oración en español
@@ -150,11 +158,6 @@ if st.button("Traducir"):
     # Cargar la imagen desde un archivo local
   #  imagen = ""
   #  st.image(imagen, caption='Descripción de la imagen', use_column_width=True)
-import streamlit as st
-
-# Load and display the image
-imagen = "https://www.mexicodesconocido.com.mx/wp-content/uploads/2017/09/distrito_federal_palacio_nacional_am_0.jpg"
-st.image(imagen, caption='Glorieta del Angel de la independencia, Ciudad de Mexico, efecto de barrido ', use_column_width=True)
 
 
 
