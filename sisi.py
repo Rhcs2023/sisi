@@ -126,7 +126,7 @@ diccionario = {
         'relajado': 'kuééni ',
         'seco': 'íchí ',
         'se': 'kúu es ser pero  ',
-        'señor':'ihá(divino),
+        'señor':'ihá(divino)',
         'ser': 'kúu ',
         'si':'véè', 
         'solamente':'ni',
