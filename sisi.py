@@ -114,7 +114,7 @@ diccionario = {
         'pecho': 'jikà ',
         'petate': 'yuu ',
         'pesos': 'pesos', 
-        'piedra': 'yuú,
+        'piedra': 'yuú',
         'plato': 'kohò',
         'pueblo': 'ñuù ',
         'que': 'já ',
