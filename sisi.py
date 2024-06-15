@@ -64,7 +64,7 @@ diccionario = {
         'estan': 'kákuu ',
         'estar': 'yóó ',
         'este': 'yàhá ',
-        'femenino':'síhí'
+        'femenino':'síhí',
         'fiesta':'víko', 
         'filoso':'shraán ', 
         'fuego': 'ñuhú ',
