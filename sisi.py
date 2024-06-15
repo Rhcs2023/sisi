@@ -148,7 +148,7 @@ diccionario = {
         'verdura': 'nduà (cruda) yuán (cocida) ',
         'vender':'shikó',
         'veinte':'okò',
-        'virgen':'ihà' (síhí),
+        'virgen':'ihà(síhí)',
         'volver':'nduu',
         'volver': 'nduu ',
         'voy': 'kihín(ri)  ',
