@@ -184,18 +184,6 @@ def traducir_oracion(oracion):
 # Load and display the image
 #imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wolterskluwer.com%2Fen%2Fexpert-insights%2Fgenerative-ai-trends-to-watch&psig=AOvVaw3T1d3Uo45nWmKRh2QZSHfX&ust=1718343291412000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCLjRz-nt14YDFQAAAAAdAAAAABDtAQ "
 #st.image(imagen, caption='Es ', use_column_width=True )
-import streamlit as st
-
-# Título de la página
-st.title("Reproductor de Video")
-
-# Ruta del archivo de video
-video_path = "https://www.youtube.com/watch?v=55dSm1Ikp_4"
-
-# Mostrar el video en la página
-video_file = open(video_path, 'rb')
-video_bytes = video_file.read()
-st.video(video_bytes)
 
 
 st.title("Traductor de Español a Mixteco")
