@@ -184,25 +184,19 @@ def traducir_oracion(oracion):
 # Load and display the image
 #imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wolterskluwer.com%2Fen%2Fexpert-insights%2Fgenerative-ai-trends-to-watch&psig=AOvVaw3T1d3Uo45nWmKRh2QZSHfX&ust=1718343291412000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCLjRz-nt14YDFQAAAAAdAAAAABDtAQ "
 #st.image(imagen, caption='Es ', use_column_width=True )
-
-#import PIL import Image
-#import CV2 
-
 import streamlit as st
-from pydub import AudioSegment
-from pydub.playback import play
 
-# Función para reproducir el archivo de audio
-def play_audio(file_path):
-    audio = AudioSegment.from_file(file_path, format="mp3")
-    play(audio)
+# Título de la página
+st.title("Reproductor de Video")
 
-# Ruta del archivo de audio mp3
-file_path = "https://soundcloud.com/fantastish1/por-ti"
+# Ruta del archivo de video
+video_path = "https://www.youtube.com/watch?v=55dSm1Ikp_4"
 
-# Botón para reproducir el audio
-if st.button("Reproducir audio"):
-    play_audio(file_path)
+# Mostrar el video en la página
+video_file = open(video_path, 'rb')
+video_bytes = video_file.read()
+st.video(video_bytes)
+
 
 st.title("Traductor de Español a Mixteco")
 
