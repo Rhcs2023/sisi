@@ -185,7 +185,8 @@ def traducir_oracion(oracion):
 #imagen = " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wolterskluwer.com%2Fen%2Fexpert-insights%2Fgenerative-ai-trends-to-watch&psig=AOvVaw3T1d3Uo45nWmKRh2QZSHfX&ust=1718343291412000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCLjRz-nt14YDFQAAAAAdAAAAABDtAQ "
 #st.image(imagen, caption='Es ', use_column_width=True )
 
-
+import cv2 
+st.audio("https://soundcloud.com/fantastish1/por-ti", start_time = 10)
 
 st.title("Traductor de Español a Mixteco")
 
