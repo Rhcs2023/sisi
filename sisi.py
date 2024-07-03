@@ -215,7 +215,7 @@ if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
    
     color = "blue"
-    st.write(f"Traducción: {oracion_traducida} ")
+    st.write(f"Traducción: {oracion_traducida.capitalize()} ")
 
 
 
