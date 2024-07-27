@@ -167,7 +167,7 @@ diccionario = {
         'relajado': 'kuééni ',
         'repartir': 'tehndè ',
         'romperse': 'tehndè ',
-        'sabroso': 'adin ',
+        'sabroso': 'adin',
         'salado': 'ada ', 
         'salir': 'nana ',
         'seco': 'íchí ',
