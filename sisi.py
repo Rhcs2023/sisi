@@ -54,7 +54,7 @@ diccionario = {
         'chile': 'yaha ',
         'choches': 'kuaa ',
         'ciénega': 'ndòhyo', 
-        'ciertamente': 'andaa ' ' kuiti',
+        'ciertamente':'andaa' ' kuiti',
         'claro': 'kají ',
         'comadre': 'kualiá ',
         'como': 'ndesa ',
