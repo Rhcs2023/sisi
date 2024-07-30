@@ -293,7 +293,7 @@ diccionario = {
        'quien':'andu',
        'rayo': 'atajia ',
        'registrar':'anee ',
-       'salado': 'axe ',
+       'salada': 'axe ',
        'simple': 'atuu   '' diko ',
        'terminado': 'ankuvi ',
        'tianguis': 'ávi ',
