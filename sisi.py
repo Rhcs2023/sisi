@@ -40,6 +40,7 @@ diccionario = {
         'brotar': 'nana',
         'buenas': 'tanì ', 
         'buenos': 'tanìn ',
+        'buen': 'tanì ',
         'cabe': 'aketa ', 
         'cabeza': 'shini ',
         'cafe': 'yahá(color) ',
