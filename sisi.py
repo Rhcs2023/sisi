@@ -324,7 +324,7 @@ oracion = st.text_input("Ingresa una oración en español, los pronombres posesi
 if st.button("Traducir"):
     oracion_traducida = traducir_oracion(oracion)
    
-    color = "blue"
+    st.color = "blue"
     st.write(f"Traducción: {oracion_traducida.capitalize()} ")
 
 
